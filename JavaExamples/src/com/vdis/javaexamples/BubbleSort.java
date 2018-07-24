@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class BubbleSort {
 	
 	public static void main(String[] args) {
+		
 		Scanner scan=new Scanner(System.in);
 		String[] n=scan.nextLine().split(" ");
 		int[] a=new int[Integer.parseInt(n[0])];
